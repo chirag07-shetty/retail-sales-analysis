@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: navy;
+    background:linear-gradient(lightblue,pink,yellow);
     color: #e2e8f0;
     line-height: 1.6;
 }
