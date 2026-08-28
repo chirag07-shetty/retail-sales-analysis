@@ -10,15 +10,15 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fb;
+    background-color: #0a131f;
     color: #222;
     line-height: 1.6;
 }
 
 nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     padding: 20px 7%;
     background-color: #ffffff;
     position: sticky;
