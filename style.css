@@ -10,21 +10,27 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #0a131f;
-    color: #222;
+    background-color: #0f172a;
+    color: #e2e8f0;
     line-height: 1.6;
 }
 
 nav {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 7%;
-    background-color: #ffffff;
+    background-color: #111827;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px #ddd;
+    box-shadow: 0 2px 10px #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 nav ul {
@@ -35,13 +41,13 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #cbd5e1;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    color: #2563eb;
+    color: #60a5fa;
 }
 
 section {
@@ -51,18 +57,19 @@ section {
 h2 {
     font-size: 38px;
     margin-bottom: 25px;
-    color: #1d3557;
+    color: #ffffff;
 }
 
 h3 {
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 .hero {
     min-height: 90vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #e8f1ff, #f8f1ff);
+    background: linear-gradient(135deg, #0f172a, #172554);
 }
 
 .hero-content {
@@ -74,7 +81,7 @@ h3 {
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #2563eb;
+    color: #60a5fa;
     margin-bottom: 15px;
 }
 
@@ -82,14 +89,14 @@ h3 {
     font-size: 65px;
     line-height: 1.1;
     margin-bottom: 25px;
-    color: #172554;
+    color: #ffffff;
 }
 
 .description {
     font-size: 19px;
     max-width: 650px;
     margin-bottom: 30px;
-    color: #555;
+    color: #94a3b8;
 }
 
 .hero-buttons {
@@ -110,64 +117,64 @@ h3 {
 }
 
 .btn:hover {
-    background-color: #1d4ed8;
+    background-color: #3b82f6;
     transform: translateY(-3px);
 }
 
 .secondary {
-    background-color: white;
-    color: #222;
-    border: 1px solid #222;
+    background-color: transparent;
+    color: #e2e8f0;
+    border: 1px solid #64748b;
 }
 
 .secondary:hover {
-    background-color: #222;
-    color: white;
+    background-color: #ffffff;
+    color: #111827;
 }
 
 #analysis {
-    background-color: #ffffff;
+    background-color: #111827;
 }
 
 .analysis-card {
-    background-color: #f5f7fa;
+    background-color: #1e293b;
     padding: 25px;
     margin-bottom: 20px;
     border-radius: 10px;
-    border-left: 5px solid #2563eb;
+    border-left: 5px solid #3b82f6;
     transition: 0.3s;
 }
 
 .analysis-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px #ddd;
+    box-shadow: 0 5px 20px #000;
 }
 
 .analysis-card h3 {
-    color: #1d3557;
+    color: #60a5fa;
 }
 
 .analysis-card p {
-    color: #555;
+    color: #cbd5e1;
 }
 
 #about {
-    background-color: #eef4ff;
+    background-color: #0f172a;
 }
 
 #about p {
     max-width: 800px;
     margin-bottom: 20px;
-    color: #555;
+    color: #94a3b8;
 }
 
 #about h3 {
     margin-top: 25px;
-    color: #2563eb;
+    color: #60a5fa;
 }
 
 #skills {
-    background-color: #ffffff;
+    background-color: #111827;
 }
 
 .skills-container {
@@ -177,26 +184,26 @@ h3 {
 }
 
 .skill {
-    background-color: #f5f7fa;
+    background-color: #1e293b;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #334155;
     transition: 0.3s;
 }
 
 .skill:hover {
     transform: translateY(-5px);
-    border-color: #2563eb;
-    box-shadow: 0 5px 15px #ddd;
+    border-color: #3b82f6;
+    box-shadow: 0 5px 20px #000;
 }
 
 .skill h3 {
-    color: #1d3557;
+    color: #ffffff;
 }
 
 .skill p {
-    color: #555;
+    color: #94a3b8;
 }
 
 .project-showcase {
@@ -211,28 +218,26 @@ h3 {
     width: 100%;
     max-height: 550px;
     object-fit: contain;
-    background-color: white;
+    background-color: #ffffff;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid #ddd;
     transition: 0.3s;
 }
 
 .project-showcase img:hover {
     transform: scale(1.02);
-    box-shadow: 0 5px 20px #ddd;
 }
 
 .project-info {
-    background-color: white;
+    background-color: #1e293b;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #334155;
 }
 
 .project-info h3 {
     font-size: 24px;
-    color: #1d3557;
+    color: #60a5fa;
     margin-bottom: 15px;
 }
 
@@ -242,14 +247,15 @@ h3 {
 
 .project-info li {
     margin-bottom: 10px;
+    color: #cbd5e1;
 }
 
 #dashboard {
-    background-color: #eef4ff;
+    background-color: #0f172a;
 }
 
 #excel {
-    background-color: #ffffff;
+    background-color: #111827;
 }
 
 @keyframes moveUp {
