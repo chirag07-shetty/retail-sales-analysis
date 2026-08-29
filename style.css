@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background:linear-gradient(rgb(39, 29, 29) black );
     color: #e2e8f0;
     line-height: 1.6;
     overflow-x: hidden;
@@ -65,7 +65,7 @@ h3 {
     min-height: 90vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg,rgb(16, 15, 15) lightblue);
+    background: linear-gradient(135deg,black darkgrey);
 }
 
 .hero-content {
