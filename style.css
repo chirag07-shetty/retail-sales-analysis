@@ -65,7 +65,7 @@ h3 {
     min-height: 90vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg,black, blue);
+    background: linear-gradient(135deg,rgb(16, 15, 15) lightblue);
 }
 
 .hero-content {
